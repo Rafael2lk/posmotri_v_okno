@@ -36,3 +36,154 @@ ul,
 ol {
   list-style: none;
 }
+
+.visually-hidden{
+  clip: rect(0 0 0 0);   
+  clip-path: inset(50%);  
+  width: 1px;   
+  height: 1px;   
+  overflow: hidden;  
+  position: absolute;   
+  white-space: nowrap;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-end;
+  margin: 130px 30px;
+}
+
+.search-form__fieldset-title,
+.search-form__label-text,
+.search-form__textfield,
+.search-form__submit-button {
+  font-family: "Fira Sans Condensed";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.result__video-container{
+  position: relative;
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
+}
+
+.result__video {
+  width: 711px;
+  height: 386px;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  height: 330px;
+  overflow: scroll;
+  margin-top: 26px;
+}
+
+.content__list::-webkit-scrollbar {
+  display: none;
+}
+
+.search-form {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  height: 54px;
+}
+
+.search-form__checkbox-list { 
+  width: 212px;
+}
+
+.search-form__submit-button {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  width: 194px;
+  height: 34px;
+  align-self: flex-end;
+  color: #FFF;
+}
+
+.content__details {
+  width: 100%;
+  height: 100%;
+}
+
+.search-form__fieldset {
+  border: none;
+}
+
+.search-form__textfield {
+  border: none;
+  background-color: transparent;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+  width: 220px;
+}
+
+.search-form__pseudo-checkbox{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #FFF;  
+}
+
+input[type="checkbox"]:checked +span {
+  background-image: url(../media/chekbox-active.svg);
+  padding: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%;
+}
+
+.content__accent{
+  color: #545050;
+}
+
+.content__video-card {
+  display: flex;
+}
+
+.content__card-link{ 
+  text-decoration: none;
+}
+
+.content__video-card-title {
+  color: #FFF;
+  font-family: "Oswald";
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.content__video-card-description {
+  color: #FFF;
+  font-family: "Fira Sans Condensed";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16.2px;
+  margin-top: 6px;
+  width: 200px;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+}
