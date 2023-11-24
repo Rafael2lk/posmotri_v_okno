@@ -121,6 +121,8 @@ ol {
   padding-top: 5px;
 }
 
+
+
 .button {
   font-weight: 700;
   background-color: transparent;
@@ -166,9 +168,17 @@ ol {
   
 }
 
-/* .search-form__label-text {
-  align-self: ;
-} */
+.content__card:active,
+.button:active {
+  background-color: #545050;
+}
+
+.search-form__label-text:hover,
+.button:hover,
+.content__card-link:hover {
+  text-decoration: underline;
+  cursor: url("../media/image\ 51.svg"), pointer;
+} 
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: '';
