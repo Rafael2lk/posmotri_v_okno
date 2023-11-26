@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -108,7 +110,8 @@ input[type="text"]:focus,
   gap: 30px;
   align-items: flex-end;
   margin: 0 30px;
-  padding-top: 109px;
+  padding-bottom: 25px;
+  
 }
 
 .result__video-container {
