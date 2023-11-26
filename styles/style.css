@@ -107,7 +107,8 @@ input[type="text"]:focus,
   justify-content: center;
   gap: 30px;
   align-items: flex-end;
-  margin: 109px 30px;
+  margin: 0 30px;
+  padding-top: 109px;
 }
 
 .result__video-container {
@@ -145,7 +146,7 @@ input[type="text"]:focus,
 
 .search-form__checkbox-list { 
   display: flex;
-  gap: 16px;
+  gap: 15px;
   padding-top: 6px;
 }
 
@@ -153,19 +154,16 @@ input[type="text"]:focus,
   display: inline-block;
   width: 19px;
   height: 19px;
-  border: 1px solid #FFF;
-  position: relative;
-  
+  border: 1px solid #FFF; 
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: '';
-  position: absolute;
-  left: 1px;
-  top: 1px;
-  width: 15px; 
-  height: 15px;
+  display: block;
   background-color: #FFF;
+  width: 15px;
+  height: 15px;
+  margin: 1px 0 0 1px;
 }
 
 .search-form__submit-button {
