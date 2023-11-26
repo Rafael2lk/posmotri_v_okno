@@ -103,7 +103,6 @@ input[type="text"]:focus,
   margin-top: 6px;
 }
 
-
 .content {
   display: flex;
   justify-content: center;
@@ -111,7 +110,6 @@ input[type="text"]:focus,
   align-items: flex-end;
   margin: 0 30px;
   padding-bottom: 25px;
-  
 }
 
 .result__video-container {
@@ -188,7 +186,7 @@ input[type="text"]:focus,
   padding-top: 26px;
 }
 
-.content__accent{
+.content__accent {
   color: #545050;
 }
 
@@ -209,7 +207,7 @@ input[type="text"]:focus,
   margin-bottom: 25px;
 }
 
-.content__card-link{ 
+.content__card-link { 
   display: block;
   text-decoration: none;
   color: #FFF;
