@@ -195,12 +195,17 @@ input[type="text"]:focus,
   flex-direction: column;
   position: relative;
   height: 298px;
-  overflow: scroll;
+  overflow-y: scroll;
   margin-top: 22px;
 }
 
 .content__list::-webkit-scrollbar {
-  display: none;
+  background-color: transparent;
+  border: 1px solid #FFF;
+}
+
+.content__list::-webkit-scrollbar-thumb {
+  background-color: #FFF;
 }
 
 .content__list-item:not(:last-child) {
