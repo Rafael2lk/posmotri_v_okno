@@ -127,7 +127,6 @@ input[type="text"]:focus,
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
   width: 224px;
-  margin-top: 6px;
 }
 
 .search-form__fieldset {
@@ -138,6 +137,8 @@ input[type="text"]:focus,
   display: flex;
   align-items: center;
   gap: 5px;
+  appearance: none;
+  margin-top: 6px;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -148,7 +149,6 @@ input[type="text"]:focus,
 .search-form__checkbox-list { 
   display: flex;
   gap: 16px;
-  padding-top: 5px;
 }
 
 .search-form__pseudo-checkbox {
