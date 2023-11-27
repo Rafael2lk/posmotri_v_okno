@@ -58,8 +58,8 @@ input[type="text"]:focus,
   font-weight: 700;
   background-color: transparent;
   border: 1px solid #FFF;
-  height: 34px;
   align-self: flex-end;
+  padding: 6px 0;
   color: #FFF;
 }
 
@@ -94,15 +94,6 @@ input[type="text"]:focus,
   text-decoration: underline;
 }
 
-.search-form__textfield {
-  border: none;
-  background-color: transparent;
-  border-top: 1px solid #FFF;
-  border-bottom: 1px solid #FFF;
-  width: 224px;
-  margin-top: 6px;
-}
-
 .content {
   display: flex;
   justify-content: center;
@@ -129,7 +120,15 @@ input[type="text"]:focus,
   display: flex;
   justify-content: flex-start;
   gap: 40px;
-  height: 54px;
+}
+
+.search-form__textfield {
+  border: none;
+  background-color: transparent;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+  width: 224px;
+  margin-top: 6px;
 }
 
 .search-form__fieldset {
@@ -137,7 +136,10 @@ input[type="text"]:focus,
 }
 
 .search-form__label {
-  appearance: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -148,7 +150,7 @@ input[type="text"]:focus,
 .search-form__checkbox-list { 
   display: flex;
   gap: 16px;
-  padding-top: 7px;
+  padding-top: 5px;
 }
 
 .search-form__pseudo-checkbox {
@@ -194,14 +196,20 @@ input[type="text"]:focus,
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 298px;
+  height: 301px;
+  width: 417px;
   overflow-y: scroll;
   margin-top: 22px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 5px;
 }
+
 
 .content__list::-webkit-scrollbar {
   background-color: transparent;
   border: 1px solid #FFF;
+
 }
 
 .content__list::-webkit-scrollbar-thumb {
@@ -237,7 +245,7 @@ input[type="text"]:focus,
 }
 
 .content__video-card-title {
-  font-family: "Oswald";
+  font-family: "Oswald",sans-serif;
   font-size: 30px;
   font-weight: 700;
   font-style: normal;
@@ -260,7 +268,9 @@ input[type="text"]:focus,
 }
 
 .more-button {
-  width: 100%;
+  box-sizing: content-box;
+  width: 392px;
+  padding-top: 4px;
 }
 
 
