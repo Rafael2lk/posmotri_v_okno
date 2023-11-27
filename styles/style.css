@@ -78,7 +78,6 @@ input[type="text"]:focus,
 }
 
 .search-form__label,
-.search-form__checkbox-list,
 .button {
   cursor: pointer;
 }
@@ -139,7 +138,6 @@ input[type="text"]:focus,
   display: flex;
   align-items: center;
   gap: 5px;
-  cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
