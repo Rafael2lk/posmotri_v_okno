@@ -126,7 +126,7 @@ input[type="text"]:focus,
   background-color: transparent;
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
-  width: 224px;
+  min-width: 224px;
 }
 
 .search-form__fieldset {
@@ -168,7 +168,7 @@ input[type="text"]:focus,
 }
 
 .search-form__submit-button {
-  width: 194px;
+  min-width: 194px;
 }
 
 .content__details {
@@ -195,7 +195,6 @@ input[type="text"]:focus,
   flex-direction: column;
   position: relative;
   height: 301px;
-  width: 417px;
   overflow-y: scroll;
   margin-top: 22px;
   padding-bottom: 2px;
@@ -255,7 +254,7 @@ input[type="text"]:focus,
   font-weight: 400;
   line-height: 16.2px;
   margin-top: 6px;
-  width: 199px;
+  min-width: 200px;
 }
 
 .content__video-card-thumbnail {
@@ -267,7 +266,7 @@ input[type="text"]:focus,
 
 .more-button {
   box-sizing: content-box;
-  width: 392px;
+  min-width: 392px;
   padding-top: 4px;
 }
 
