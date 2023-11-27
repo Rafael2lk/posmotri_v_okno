@@ -194,6 +194,7 @@ input[type="text"]:focus,
   display: flex;
   flex-direction: column;
   position: relative;
+  min-width: 418px;
   height: 301px;
   overflow-y: scroll;
   margin-top: 22px;
