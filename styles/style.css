@@ -260,7 +260,9 @@ input[type="text"]:focus,
 
 .content__video-card-thumbnail {
   width: 194px;
-  height: 104px;
+  min-height: 103px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .more-button {
