@@ -203,11 +203,9 @@ input[type="text"]:focus,
   padding-right: 5px;
 }
 
-
 .content__list::-webkit-scrollbar {
   background-color: transparent;
   border: 1px solid #FFF;
-
 }
 
 .content__list::-webkit-scrollbar-thumb {
